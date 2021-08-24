@@ -1,0 +1,27 @@
+body{
+	background-color: lightblue;
+	/*background-image: url(Gambar/bg1.jpg);*/
+	/*background-repeat: no-repeat;*/
+}
+
+/* Manual */
+/*span{
+	background-image: linear-gradient(90deg,red, blue);
+	background-position: left bottom;
+	background-size: 0% 3px;
+	background-repeat: no-repeat;
+	transition: 300ms ease;
+}
+span:hover{
+	background-size: 100% 3px;
+}*/
+
+/* Shorthand(singkatan) */
+span{
+	background: linear-gradient(90deg, red, blue) left bottom no-repeat;
+	background-size: 0% 3px;
+	transition: 300ms ease;
+}
+span:hover{
+	background-size: 100% 3px;
+}

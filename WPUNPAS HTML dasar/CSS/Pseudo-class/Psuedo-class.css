@@ -1,0 +1,33 @@
+.hello:link{
+	color: blue;
+}
+.hello:hover{
+	color: blue;
+	font-size: 20px;
+	font-family: arial;
+	text-decoration: none;
+}
+.hello:active{
+	color: red;
+	font-style: italic;
+}
+/* first-child */
+li:first-child a{
+	color: green;
+}
+/* last-child */
+li:last-child a{
+	color: green;
+}
+/* nth-child */
+li:nth-child(even) a:hover{
+	color: red;
+}
+/* first-of-type */
+p:first-of-type{
+	color: red;
+}
+/* last-of-type */
+p:last-of-type{
+	color: green;
+}

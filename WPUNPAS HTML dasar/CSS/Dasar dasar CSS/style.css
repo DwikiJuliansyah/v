@@ -1,0 +1,15 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+h1{
+	color: lightblue;
+	font-family: sans-serif;
+	text-align: center;
+}
+p{
+	color: grey;
+	margin: 30px;
+	text-align: justify;
+}
